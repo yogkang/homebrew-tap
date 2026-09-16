@@ -12,7 +12,7 @@ cask "domain-egress" do
   desc "macOS local HTTP/HTTPS and SOCKS5 proxy client"
   homepage "https://github.com/yogkang/DomainEgress"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "DomainEgress.app"
 end
